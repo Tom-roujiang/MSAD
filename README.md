@@ -11,7 +11,7 @@ We propose a new **Multi-Scenario Anomaly Detection (MSAD) dataset**, a high- re
 
 ## Dataset Preparation
 
-If you would like to access the original dataset in video format, please submit a request through our online application form [here](https://forms.microsoft.com/pages/responsepage.aspx?id=XHJ941yrJEaa5fBTPkhkN0_bcDHlPvFAiLdm3BQe86NURVI5RlRWODhYWVZYSzNCSlBROThBTEQzOC4u&route=shorturl).
+If you would like to access the original dataset in video format, please download and submit a request through our application form [here](https://docs.google.com/document/d/1a_61tD1PELaxt66dSi8OqzKUPIdV84VO/edit?tab=t.0).
 
 We use this [I3D_Feature_Extraction_resnet](https://github.com/GowthamGottimukkala/I3D_Feature_Extraction_resnet) repo for extracting I3D features. We also offer extracted features (I3D and Video-Swin Transformer) available for all researchers. [(Feature_Download Link)](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe)
 
