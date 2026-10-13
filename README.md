@@ -1,23 +1,30 @@
 # [NeurIPS 2024] MSAD - A Benchmark for Video Anomaly Detection
-![image-20241026003821228](https://gitee.com/zhu-liyun2000/typora_imgs/raw/master/img/202410260043576.png)
+[![Project Page](https://img.shields.io/badge/Project-Page-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://msad-dataset.github.io/)
+[![arXiv](https://img.shields.io/badge/arXiv-2402.04857-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.04857)
+[![GitHub](https://img.shields.io/badge/GitHub-Code%20%26%20Benchmarks-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Tom-roujiang/MSAD)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-MSAD%20Dataset-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Liyun1009/MSAD)
+
+![image-20241026003821228](./asset/example.png)
 
 This is a implementation of our work **"Advancing Video Anomaly Detection: A Concise Review and a New Dataset"** (Accepted by 2024 NeurIPS Dataset and Benchmark Track).  We provide code for benchmarking our new Multi-Scenario Video Anomaly Detection dataset.
 
 
 
-We propose a new **Multi-Scenario Anomaly Detection (MSAD) dataset**, a high- resolution, real-world anomaly detection benchmark encompassing diverse scenarios and anomalies, both human and non-human-related. For more details and applying for our MSAD dataset, please refer to our project website: [Project Website](https://msad-dataset.github.io)
+We propose a new **Multi-Scenario Anomaly Detection (MSAD) dataset**, a high- resolution, real-world anomaly detection benchmark encompassing diverse scenarios and anomalies, both human and non-human-related. For more details and applying for our MSAD dataset, please refer to our project website: [Project Website](https://msad-dataset.github.io).
 
+## Important Update
 
+**Update (October 13, 2026):** MSAD is now available as a **gated dataset** on [<img src="./asset/huggingface-logo.svg" alt="Hugging Face logo" width="20" height="20"> **Hugging Face**](https://huggingface.co/datasets/Liyun1009/MSAD). Request access directly on the dataset page using your **official institutional email address**.
+
+If you have any questions or encounter difficulties with the application or download process, email [Liyun.Zhu@alumni.anu.edu.au](mailto:Liyun.Zhu@alumni.anu.edu.au) and CC: [time.lab@griffith.edu.au](mailto:time.lab@griffith.edu.au), [l.wang4@griffith.edu.au](mailto:l.wang4@griffith.edu.au).
 
 ## Dataset Preparation
 
-If you would like to access the original dataset in video format, please download and submit a request through our application form [here](https://docs.google.com/document/d/1a_61tD1PELaxt66dSi8OqzKUPIdV84VO/edit?tab=t.0).
+For the original videos, follow the Hugging Face access instructions above.
 
 We use this [I3D_Feature_Extraction_resnet](https://github.com/GowthamGottimukkala/I3D_Feature_Extraction_resnet) repo for extracting I3D features. We also offer extracted features (I3D and Video-Swin Transformer) available for all researchers. [(Feature_Download Link)](https://drive.google.com/drive/folders/1mxFGCcAuEecN0c7MHD12wD4pO2Ej5kLe)
 
 **Note that the Dataset is to be used solely for academic and research purposes. Commercial use, reproduction, distribution, or sale of the Dataset or any derivative works is strictly prohibited.**
-
-
 
 
 
@@ -96,4 +103,3 @@ If you find MSAD useful in your research, please consider citing our paper 📝
 ## Acknowledgement
 
 This codebase is built on top of [RTFM](https://github.com/tianyu0207/RTFM), [MGFN](https://github.com/carolchenyx/MGFN.), [UR-DMU](https://github.com/henrryzh1/UR-DMU), and we thank the authors for their work.
-
